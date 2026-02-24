@@ -1,15 +1,39 @@
 {
-  "name": "video_juego",
+  "name": "video_juegos",
   "version": "1.0.0",
   "main": "index.js",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.0",
+    "detect-libc": "^2.1.2",
+    "enhanced-resolve": "^5.19.0",
+    "graceful-fs": "^4.2.11",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "jiti": "^2.6.1",
+    "lightningcss": "^1.31.1",
+    "lightningcss-win32-x64-msvc": "^1.31.1",
+    "magic-string": "^0.30.21",
+    "mri": "^1.2.0",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "source-map-js": "^1.2.1",
+    "tailwindcss": "^4.2.0",
+    "tapable": "^2.3.0"
+  },
   "scripts": {
-    "dev": "npm @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alumnodeikker/video_juegos.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/alumnodeikker/video_juegos/issues"
+  },
+  "homepage": "https://github.com/alumnodeikker/video_juegos#readme",
+  "description": ""
 }
